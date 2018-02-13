@@ -1,0 +1,46 @@
+QUESTION 1 OF 2
+Which of these variables a, b, c, or d, is defined in the global scope?
+
+var a = 1;
+function x() {
+  var b = 2;
+  function y() {
+    var c = 3;
+    function z() {
+      var d = 4;
+    }
+    z();
+  }
+  y();
+}
+
+x();
+
+X  a
+b
+c
+d
+
+
+QUESTION 2 OF 2
+Where can you print out the value of variable c without resulting in an error?
+
+var a = 1;
+function x() {
+  var b = 2;
+  function y() {
+    var c = 3;
+    function z() {
+      var d = 4;
+    }
+    z();
+  }
+  y();
+}
+
+x();
+
+anywhere in the script!
+anywhere inside function x()
+X  anywhere inside function y()
+X  anywhere inside function z()
