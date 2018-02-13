@@ -1,4 +1,4 @@
-<!--
+```<!--
 
 This is a comment. Note the special tags. You can type whatever you want
 
@@ -35,7 +35,6 @@ Here's an example element:
 -->
 
 
-```
 <p>Paragraph</p>
 
 <span>One span</span>
